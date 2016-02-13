@@ -3,7 +3,7 @@
 #include_next <linux/proc_fs.h>
 #include <linux/version.h>
 
-#if LINUX_VERSION_CODE < KERNEL_VERSION(3,10,0)
+#if LINUX_VERSION_CODE < KERNEL_VERSION(3,4,0)
 
 #ifdef CONFIG_PROC_FS
 /*

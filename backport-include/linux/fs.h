@@ -8,7 +8,7 @@
  */
 #include <linux/uidgid.h>
 
-#if LINUX_VERSION_CODE < KERNEL_VERSION(3,9,0)
+#if LINUX_VERSION_CODE < KERNEL_VERSION(3,4,0)
 /**
  * backport of:
  *
