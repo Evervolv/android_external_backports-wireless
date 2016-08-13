@@ -89,7 +89,7 @@ mrproper:
 		test "$$kver" != "" || echo "Kernel version parse failed!"		;\
 		test "$$kver" != ""							;\
 		kvers="$$(seq 14 39 | sed 's/^/2.6./')"					;\
-		kvers="$$kvers $$(seq 0 99 | sed 's/^/3./')"				;\
+		kvers="$$kvers $$(seq 0 199 | sed 's/^/3./')"				;\
 		print=0									;\
 		for v in $$kvers ; do							\
 			if [ "$$print" = "1" ] ; then					\
